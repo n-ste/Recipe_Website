@@ -36,10 +36,21 @@ nav {
 
 .nav-bar li {
     list-style-type: none; 
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    line-height: 3em;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .nav-links a {
-    background-color:rgb(177, 204, 116);
+    color: #fff;
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -68,7 +79,8 @@ nav {
 }
 
 .main h2 {
-    margin: 0 10px;
+    padding: 20px 0 0 0;
+    margin: 10px 30px;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     text-decoration: underline;
@@ -77,13 +89,14 @@ nav {
 .main p {
     line-height: 40px;
     margin: 30px;
+    padding: 0 0 30px 0;
 }
 
 .main-container .section {
     background-color: rgb(130, 147, 153);
 }
 .main-container {
-    margin: 100px 0 0 0;
+    margin: 120px 20px 0 20px;
 }
 .footer {
     background-color:rgb(177, 204, 116);;

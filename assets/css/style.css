@@ -10,7 +10,8 @@
     padding: 0;
     margin: 2em;
     height: 80px;
-    font-family: 'Kanit Static', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
     color: #fff;
 }
 

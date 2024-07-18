@@ -1,5 +1,7 @@
 * {
     background-color: coral;
+    padding: 0;
+    margin: 0
 }
 
 .header {
@@ -10,6 +12,9 @@
 .main {
     background-color: gold;
     color: #fff;
+    height: 100vh;
+    padding: 10px 0;
+    
 }
 
 .footer {

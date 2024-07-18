@@ -20,12 +20,19 @@
 .main {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
     background-color: gold;
     color: #fff;
     height: 100vh;
     padding: 10px 0;
-    
+}
+
+.header-container {
+    margin: 10px;
+}
+
+.main-container
+{
+    margin: 10px;
 }
 
 .footer {

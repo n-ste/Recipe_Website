@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat&display=swap');
 
 * {
-    background-color: coral;
     padding: 0;
     margin: 0
 }
 
 .header {
     padding: 0;
-    margin: 2em;
+    width: 100%;
     height: 80px;
+    background-color: coral;
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -27,7 +27,7 @@
 }
 
 .header-container {
-    margin: 10px;
+    margin: 0 10px;
 }
 
 .main-container
@@ -36,8 +36,12 @@
 }
 
 .footer {
-    padding: 0;
-    margin: 2em;
-    height: 50px;
+    background-color: coral;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 10px;
+    height: 65px;
+    width: 100%;
     color: #fff;
 }

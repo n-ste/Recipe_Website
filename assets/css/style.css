@@ -19,13 +19,26 @@
 
 .main {
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     background-color: gold;
     color: #fff;
     height: 100vh;
     padding: 10px 0;
 }
 
+.main h1 {
+    text-transform: uppercase;
+}
+
+.main p {
+    margin: 15px;
+    line-height: 40px;
+
+}
+
+.main-container .section {
+    margin: 10px;
+    background-color: coral;
+}
 .header-container {
     margin: 0 10px;
 }

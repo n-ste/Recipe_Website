@@ -9,30 +9,39 @@
     padding: 0;
     width: 100%;
     height: 100px;
-    background-color:rgb(177, 204, 116);;
+    background-color:rgb(177, 204, 116);
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #fff;
+    position: fixed;
+    box-shadow: 1px #000;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    display: none;
+    
 }
 .nav-links {
-    background-color: rgb(208, 244, 234);
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+    background-color:rgb(177, 204, 116);
+    padding: 10px;
+    min-width: 50px;
+    padding: 0 10px;
 }
 
 .nav-bar li {
     list-style-type: none; 
+    padding: 10px;
 }
 
 .nav-links a {
-    padding: 10px;
     background-color:rgb(177, 204, 116);
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+
 }
 .main {
     font-family: 'Montserrat', sans-serif;

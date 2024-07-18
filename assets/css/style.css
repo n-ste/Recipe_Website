@@ -26,16 +26,18 @@
 }
 
 .main h2 {
-    padding: 10px 0 0 0;
+    padding: 10px 0;
     margin: 15px;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    text-decoration: underline;
 }
 
 .main p {
+    padding: 10px 0;
     margin: 15px;
     line-height: 40px;
+
 
 }
 

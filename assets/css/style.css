@@ -12,11 +12,15 @@
     height: 80px;
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     color: #fff;
 }
 
 .main {
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     background-color: gold;
     color: #fff;
     height: 100vh;

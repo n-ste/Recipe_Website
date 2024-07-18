@@ -5,7 +5,9 @@
 }
 
 .header {
-    background-color: gold;
+    padding: 0;
+    margin: 2em;
+    height: 80px;
     color: #fff;
 }
 
@@ -18,6 +20,8 @@
 }
 
 .footer {
-    background-color: gold;
+    padding: 0;
+    margin: 2em;
+    height: 80px;
     color: #fff;
 }

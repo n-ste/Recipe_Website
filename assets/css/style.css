@@ -5,10 +5,16 @@
     margin: 0;
 }
 
+body {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     width: 100%;
     height: 100px;
-    position: fixed;
+    position: relative;
     background-color:rgb(177, 204, 116);
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
@@ -24,14 +30,22 @@
     padding: 10px;
     margin: 10px;
 }
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
 nav {
-    position: absolute;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     display: none;
     top: 100%;
 }
 .nav-links {
     background-color:rgb(177, 204, 116);
+    padding: 0 0 20px 0;
 }
 
 .nav-bar li {
@@ -46,12 +60,14 @@ nav {
 
 .nav-links a {
     color: #fff;
-    margin: 0 25px 0 25px;
+    margin: 10px 25px 0 25px;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
 .nav-links a:hover {
-    color: #fff;
+    color:rgb(177, 204, 116);
+    background-color: rgb(130, 147, 153);
     text-decoration: none;
 }
 #nav-dropdown:checked~nav {
@@ -75,7 +91,6 @@ nav {
     background-color: rgb(232, 252, 194);
     color: #fff;
     height: 100vh;
-    padding: 10px;
 }
 
 .main h2 {
@@ -85,19 +100,30 @@ nav {
     text-transform: uppercase;
     text-decoration: underline;
 }
+ .main-container {
+    top: 0;
+ }
 
-.main p {
-    line-height: 40px;
-    margin: 30px;
-    padding: 0 0 30px 0;
+ #bg-image {
+    background: url("../images/top-view-table-full-delicious-food-composition.jpg") no-repeat center center/cover;
+    top: 100px;
+    width: 100%;
+    height: 200px;
 }
 
-.main-container .section {
+.section h2 {
     background-color: rgb(130, 147, 153);
+    margin: 20px 20px 0 20px;
+    padding: 25px;
+
 }
-.main-container {
-    margin: 120px 20px 0 20px;
+
+.section p {
+    background-color: rgb(84, 95, 102);
+    margin: 0 20px;
+    padding: 25px;
 }
+
 .footer {
     background-color:rgb(177, 204, 116);;
     font-family: 'Kanit', sans-serif;
